@@ -14,8 +14,9 @@ export default {
 
 <template>
   <div class="app-container">
-    <HolaMundo /> 
     <Routes />
+    <hr />
+    <HolaMundo />
   </div>
 </template>
 

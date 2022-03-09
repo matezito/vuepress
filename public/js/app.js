@@ -17589,12 +17589,17 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "app-container"
 };
-function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_HolaMundo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("HolaMundo");
 
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", null, null, -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Routes = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Routes");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HolaMundo), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Routes)]);
+  var _component_HolaMundo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("HolaMundo");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Routes), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HolaMundo)]);
 }
 
 /***/ }),
