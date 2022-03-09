@@ -1,9 +1,10 @@
 <script>
-    import HolaMundo from './components/HolaMundo.vue';
-
+   // import HolaMundo from './components/HolaMundo.vue';
+    import Routes from './components/Routes.vue';
     export default {
         components: {
-            HolaMundo
+            //HolaMundo
+            Routes
         },
         mounted() {
             console.log('App.vue mounted en VuePress');
@@ -13,7 +14,7 @@
 
 <template>
     <div class="app-container">
-        <HolaMundo />
+        <Routes />
     </div>
 </template>
 
